@@ -6,7 +6,7 @@ namespace PortfolioCore.Controllers
     public class SkillController : Controller
     {
         PortfolioContext context = new PortfolioContext();
-        public IActionResult Index()
+        public IActionResult SkillList()
         {
             return View();
         }
