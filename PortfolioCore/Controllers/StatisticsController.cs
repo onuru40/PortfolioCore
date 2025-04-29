@@ -15,6 +15,10 @@ namespace PortfolioCore.Controllers
             ViewBag.v4 = context.Skills.Average(x => x.SkillValue);
             ViewBag.v5 = context.Experiences.Count();
             ViewBag.v6 = context.Experiences.Where(x=>x.SubTitle == "Developer").Count();
+            ViewBag.v7 = context.Services.Count();
+            ViewBag.v8 = context.Testimonials.Where(x => x.Title == "Yazılım Mühendisi").Count();
+            ViewBag.v9 = context.Categories.Count();
+            ViewBag.v10 = context.Messages.Where(x => x.IsRead == true).Count();
             return View();
         }
     }
