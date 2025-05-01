@@ -4,9 +4,9 @@
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
-<h2>PortfolioList</h2>
+<h2>Projelerim</h2>
 
-<table class="table table-bordered">
+@* <table class="table table-bordered">
     <tr>
         <th>#</th>
         <th>Başlık</th>
@@ -26,6 +26,30 @@
             <td><a href="/Portfolio/UpdatePortfolio/@item.PortfolioId" class="btn btn-success">Güncelle</a></td>
         </tr>
     }
-</table>
+</table> *@
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <a href="">
+                        <img class="card-img-top" src="@item.ImageUrl" alt="Card image cap" style="width:100%; height:200px; object-fit: cover;">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title / @item.Category.CategoryName</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">@item.Description</li>
+                        <li class="list-group-item">
+                            <a href="/Portfolio/DeletePortfolio/@item.PortfolioId" class="btn btn-outline-danger">Sil</a>
+                            <a href="/Portfolio/UpdatePortfolio/@item.PortfolioId" class="btn btn-outline-info">Güncelle</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+</div>
 <a href = "/Portfolio/CreatePortfolio" class="btn btn-primary">Yeni Portfolyo Ekle</a>
 

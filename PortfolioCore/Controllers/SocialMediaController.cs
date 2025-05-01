@@ -4,7 +4,7 @@ using PortfolioCore.Entities;
 
 namespace PortfolioCore.Controllers
 {
-    public class SocaialMediaController : Controller
+    public class SocialMediaController : Controller
     {
         PortfolioContext context = new PortfolioContext();
         public IActionResult SocialMediaList()
