@@ -8,6 +8,9 @@
         public string Content { get; set; } 
         public DateTime BirthDate { get; set; }
         public int Age { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string SubDescription { get; set; }
         public string Website { get; set; }
         public string Degree { get; set; }
         public string PhoneNumber { get; set; }
