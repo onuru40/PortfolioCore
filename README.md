@@ -77,6 +77,11 @@ Yeteneklerim
 Sosyal Medyalar
 ![image](https://github.com/user-attachments/assets/46600b40-57ac-49f2-906b-07424ea0e7fd)
 
+![image](https://github.com/user-attachments/assets/d54b6cbd-763a-467a-bd03-dac2674f28f0)
+
+![image](https://github.com/user-attachments/assets/15c88bec-b44d-4415-ac80-6b51f40f4b6e)
+
+
 Gelen Mesajlar
 ![image](https://github.com/user-attachments/assets/e1830f5f-6752-4979-a1b5-d357b6bcd2d2)
 
