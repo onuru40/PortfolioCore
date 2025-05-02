@@ -79,7 +79,7 @@ Sosyal Medyalar
 
 ![image](https://github.com/user-attachments/assets/d54b6cbd-763a-467a-bd03-dac2674f28f0)
 
-![image](https://github.com/user-attachments/assets/15c88bec-b44d-4415-ac80-6b51f40f4b6e)
+![image](https://github.com/user-attachments/assets/e71b0cab-876b-4947-bffc-74ca50898b96)
 
 
 Gelen Mesajlar
